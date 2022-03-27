@@ -1,27 +1,62 @@
 <html>
     <head>
         <link href="./style.css" rel="stylesheet">
-        <nav>
-            <ul>
-                <li>About</li>
-                <li>Past Projects</li>
-                <li>What I'm Up To</li>
-            </ul>
-        </nav>
+        <title>Micah Eckard</title>
     </head>
     <body>
+        <header>
+            <nav>
+                <div class="logo"></div>
+                <ul>
+                    <li><a href='about-me'>About</a></li>
+                    <li>Past Projects</li>
+                    <li>What I'm Up To</li>
+                </ul>
+            </nav>
+        </header>
         <div class="banner">
             <h1>Micah Eckard</h1>
             <h2>RVA-Based Developer</h2>
             <img src="./Resources/Images/SarahMattozziPhotography-MicahAlanna-Engaged-162.jpg" alt="a picture of me!">
         </div>
-        <main class="about-me">
-            <h2>About Me</h2>
-            <p>Hello! My name is Micah and I am a beginning Full Stack Devloper.
-                I am currently versed in HTML, CSS, and Javascript, with much more to come!
-                I have an intense natural curiosity and am always challenging myself to learn more.
-                Come along with me as I continue to refine my skills!
-            </p>
+        <main>
+            <div id="about-me">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <p>Hello! My name is Micah and I am a beginning Full Stack Devloper.
+                     I am currently versed in HTML, CSS, and Javascript, with much more to come!
+                     I have an intense natural curiosity and am always challenging myself to learn more.
+                        Come along with me as I continue to refine my skills!
+                    </p>
+                </div>
+            </div>
+            <div id="past-projects">
+                <div class="container">
+                    <h2>Check out some things I have done</h2>
+                    <div class="project">
+                        <img src="./Resources/Images/Ampharos.png">
+                        <p>Ampharos Emporium</p>
+                    </div>
+                    <div class="project">
+                        <img src="./Resources/Images/RVAPFC.png">
+                        <p>RVA Pokemon Fan Club</p>
+                    </div>
+                </div>
+            </div>
+            <div id="current">
+                <h2>Current skills I'm working on</h2>
+                <div class="content">
+                    <div class="currents">
+                        <ul>
+                            <li>CSS Drawing and Animation</li>
+                            <li>Javascript mastery</li>
+                            <li>React</li>
+                            <li>GraphQL</li>
+                            <li>Git mastery</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>
