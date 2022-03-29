@@ -1,3 +1,5 @@
+/*general styles */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +8,59 @@
 html {
     background-color: rgb(66, 66, 66);
     font-family: 'rubik', sans-serif;
-    font-size: 18;
+    font-size: 20;
     text-align: center;
-    
 }
+
+/*navigation*/
+header {
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: solid rgb(0,0,0) 3px;
+    position: fixed;
+    align-items:center;
+    background-color: rgb(66, 66, 66)
+}
+
+nav img {
+    height: 5em;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav li {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(150, 150, 150)
+}
+/*banner*/
+
+.banner {
+    padding-top: 6rem;
+    height: 25rem;
+    width:100%;
+    background-image: url(./Resources/Images/SarahMattozziPhotography-MicahAlanna-Engaged-162.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    }
+
