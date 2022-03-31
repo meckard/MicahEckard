@@ -26,7 +26,7 @@ nav {
     justify-content: space-between;
     border-bottom: solid rgb(0,0,0) 3px;
     align-items:center;
-    background-color: #787878;
+    background-color: #8390e8;
 }
 
 nav img {
@@ -58,8 +58,10 @@ nav a:hover {
     text-align: left;
     display: flex;
     flex-direction: row;
-    margin: 5rem 1rem;
+    margin: 7rem 1rem 2rem 1rem;
     align-items: center;
+    background-color: #9b9a9a;
+    padding: 0 1rem;
     }
 
 .banner h1 {
@@ -80,12 +82,16 @@ nav a:hover {
     align-items: center;
     flex-direction: column;
     line-height: 2;
+    justify-content: center;
+    background-color: #9b9a9a;
 }
 
 /* Past Projects */
 #past-projects {
     height: 15rem;
-    width: 100%;
+    background-color: #9b9a9a;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .project img {
@@ -96,4 +102,17 @@ nav a:hover {
 .container {
     display: flex;
     margin: 2rem;
+    justify-content: center;
+}
+
+/* Work In Progress */
+
+#current {
+    background-color: #9b9a9a;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.currents ul {
+    text-align: left;
 }
