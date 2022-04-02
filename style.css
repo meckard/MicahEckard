@@ -76,6 +76,10 @@ nav a:hover {
     height:fit-content;
 
 }
+
+#banner-h1 {
+    transition: color 1s;
+}
 /* about me */
 
 #about-me {
