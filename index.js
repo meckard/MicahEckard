@@ -1,4 +1,7 @@
 var hoverOnBanner = document.getElementById('banner-h1')
+var hoverOnAbout = document.getElementById('about-me-h2')
+var hoverOnPast = document.getElementById('past-project-h2')
+var hoverOnCurrent = document.getElementById('current-h2')
 
 //var randomColorOne = Math.floor(Math.random().toFixed(2)*100)
 //var randomColorTwo = Math.floor(Math.random().toFixed(2)*100)
@@ -23,3 +26,12 @@ const reset = (event) => {
 
 hoverOnBanner.addEventListener("mouseover", colorFun)
 hoverOnBanner.addEventListener("mouseout", reset)
+
+hoverOnAbout.addEventListener("mouseover", colorFun)
+hoverOnAbout.addEventListener("mouseout", reset)
+
+hoverOnPast.addEventListener("mouseover", colorFun)
+hoverOnPast.addEventListener("mouseout", reset)
+
+hoverOnCurrent.addEventListener("mouseover", colorFun)
+hoverOnCurrent.addEventListener("mouseout", reset)
