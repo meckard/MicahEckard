@@ -6,10 +6,10 @@
 }
 
 html {
-    background-color: #c48c8c;
     font-family: 'rubik', sans-serif;
     font-size: 20;
     text-align: center;
+    background: linear-gradient(to left top, #8390e8, #c48c8c);
 }
 
 /*navigation*/
@@ -27,7 +27,7 @@ nav {
     justify-content: space-between;
     border-bottom: solid rgb(0,0,0) 3px;
     align-items:center;
-    background-color: #8390e8;
+    background: linear-gradient(45deg, #8390e8, white);
 }
 
 nav img {
@@ -61,14 +61,18 @@ nav a:hover {
     flex-direction: row;
     margin: 7rem 1rem 2rem 1rem;
     align-items: center;
-    background-color: #9b9a9a;
     padding: 0 1rem;
     z-index: 0;
     opacity: 0.9;
+    background: linear-gradient(to right, #9b9a9a, #424141);
     }
 
 .banner h1 {
     font-size: 4em
+}
+
+.banner h2 {
+    font-size: 1.5rem;
 }
 
 .banner img {
@@ -103,8 +107,8 @@ nav a:hover {
     flex-direction: column;
     line-height: 2;
     justify-content: center;
-    background-color: #9b9a9a;
     opacity: 0.9;
+    background: linear-gradient(to right, #9b9a9a, #424141);
 }
 
 #about-me h2 {
@@ -119,10 +123,10 @@ nav a:hover {
 /* Past Projects */
 #past-projects {
     height: 15rem;
-    background-color: #9b9a9a;
     padding: 1rem;
     margin: 1rem;
     opacity: 0.9;
+    background: linear-gradient(to right, #9b9a9a, #424141);
 }
 
 #past-projects h2 {
@@ -147,10 +151,10 @@ nav a:hover {
 /* Work In Progress */
 
 #current {
-    background-color: #9b9a9a;
     padding: 1rem;
     margin: 2rem 1rem;
     opacity: 0.9;
+    background: linear-gradient(to right, #9b9a9a, #424141);
 }
 
 #current h2 {
@@ -175,6 +179,7 @@ footer {
     align-content: flex-end;
     height: 3rem;
     align-items: center;
+    background: linear-gradient(45deg, #8390e8, white);
 }
 
 footer a {
